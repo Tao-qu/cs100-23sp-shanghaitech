@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Sun\Sun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Sun\SkySun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Sun\FlowerSun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Sun\Sun.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Sun\SkySun.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Sun\FlowerSun.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Sun\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{42DF7497-1C26-3FDB-97B1-CCAB9E909934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{92472F3B-944E-35CC-9BC2-EBB20B0CB10A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

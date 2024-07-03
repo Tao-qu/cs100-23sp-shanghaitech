@@ -1,0 +1,10 @@
+^E:\COURSE\G1S2\CS100\HOMEWORK\HW8\HW8_ATTACHMENTS_WINDOWS\SRC\GAMEWORLD\CMAKELISTS.TXT
+setlocal
+D:\mingw64\bin\cmake.exe -SE:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows -BE:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build --check-stamp-file E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameWorld/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

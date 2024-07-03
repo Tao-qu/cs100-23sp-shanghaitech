@@ -1,0 +1,2 @@
+D:\mingw64\bin\ar.exe qc ..\..\..\lib\libSeeds.a CMakeFiles/Seeds.dir/Seeds.cpp.obj CMakeFiles/Seeds.dir/SunflowerSeed.cpp.obj CMakeFiles/Seeds.dir/PeashooterSeed.cpp.obj CMakeFiles/Seeds.dir/WallnutSeed.cpp.obj CMakeFiles/Seeds.dir/CherryBombSeed.cpp.obj CMakeFiles/Seeds.dir/RepeaterSeed.cpp.obj CMakeFiles/Seeds.dir/Shovel.cpp.obj CMakeFiles/Seeds.dir/CooldownMask.cpp.obj
+D:\mingw64\bin\ranlib.exe ..\..\..\lib\libSeeds.a

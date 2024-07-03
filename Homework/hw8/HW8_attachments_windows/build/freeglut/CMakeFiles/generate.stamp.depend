@@ -1,0 +1,25 @@
+# CMake generation dependency list for this directory.
+D:/mingw64/share/cmake-3.26/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+D:/mingw64/share/cmake-3.26/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+D:/mingw64/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake
+D:/mingw64/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake
+D:/mingw64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake
+D:/mingw64/share/cmake-3.26/Modules/CheckFunctionExists.cmake
+D:/mingw64/share/cmake-3.26/Modules/CheckIncludeFile.cmake
+D:/mingw64/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake
+D:/mingw64/share/cmake-3.26/Modules/CheckIncludeFiles.cmake
+D:/mingw64/share/cmake-3.26/Modules/CheckTypeSize.cmake
+D:/mingw64/share/cmake-3.26/Modules/FindOpenGL.cmake
+D:/mingw64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
+D:/mingw64/share/cmake-3.26/Modules/FindPackageMessage.cmake
+D:/mingw64/share/cmake-3.26/Modules/GNUInstallDirs.cmake
+D:/mingw64/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake
+D:/mingw64/share/cmake-3.26/Modules/Internal/CheckFlagCommonConfig.cmake
+D:/mingw64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake
+D:/mingw64/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake
+E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/CMakeLists.txt
+E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/FreeGLUTConfig.cmake.in
+E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/config.h.in
+E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/freeglut.pc.in
+E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/freeglut.rc.in
+E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_version.h.in

@@ -1,0 +1,680 @@
+[
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/PvZ.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\PvZ.dir\\src\\main.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\main.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/main.cpp",
+  "output": "CMakeFiles/PvZ.dir/src/main.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/SOIL",
+  "command": "D:\\mingw64\\bin\\gcc.exe  @CMakeFiles/SOIL.dir/includes_C.rsp -O3 -DNDEBUG -o CMakeFiles\\SOIL.dir\\src\\image_dxt.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\SOIL\\src\\image_dxt.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/SOIL/src/image_dxt.c",
+  "output": "SOIL/CMakeFiles/SOIL.dir/src/image_dxt.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/SOIL",
+  "command": "D:\\mingw64\\bin\\gcc.exe  @CMakeFiles/SOIL.dir/includes_C.rsp -O3 -DNDEBUG -o CMakeFiles\\SOIL.dir\\src\\image_helper.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\SOIL\\src\\image_helper.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/SOIL/src/image_helper.c",
+  "output": "SOIL/CMakeFiles/SOIL.dir/src/image_helper.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/SOIL",
+  "command": "D:\\mingw64\\bin\\gcc.exe  @CMakeFiles/SOIL.dir/includes_C.rsp -O3 -DNDEBUG -o CMakeFiles\\SOIL.dir\\src\\soil.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\SOIL\\src\\soil.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/SOIL/src/soil.c",
+  "output": "SOIL/CMakeFiles/SOIL.dir/src/soil.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/SOIL",
+  "command": "D:\\mingw64\\bin\\gcc.exe  @CMakeFiles/SOIL.dir/includes_C.rsp -O3 -DNDEBUG -o CMakeFiles\\SOIL.dir\\src\\stb_image_aug.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\SOIL\\src\\stb_image_aug.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/SOIL/src/stb_image_aug.c",
+  "output": "SOIL/CMakeFiles/SOIL.dir/src/stb_image_aug.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_callbacks.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_callbacks.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_callbacks.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_callbacks.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_cursor.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_cursor.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_cursor.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_cursor.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_display.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_display.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_display.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_display.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_ext.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_ext.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_ext.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_ext.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_font_data.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_font_data.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_font_data.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_font_data.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_gamemode.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_gamemode.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_gamemode.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_gamemode.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_geometry.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_geometry.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_geometry.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_geometry.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_gl2.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_gl2.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_gl2.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_gl2.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_init.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_init.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_init.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_init.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_input_devices.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_input_devices.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_input_devices.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_input_devices.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_joystick.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_joystick.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_joystick.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_joystick.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_main.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_main.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_main.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_main.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_misc.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_misc.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_misc.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_misc.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_overlay.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_overlay.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_overlay.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_overlay.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_spaceball.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_spaceball.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_spaceball.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_spaceball.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_state.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_state.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_state.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_state.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_stroke_mono_roman.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_stroke_mono_roman.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_stroke_mono_roman.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_stroke_mono_roman.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_stroke_roman.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_stroke_roman.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_stroke_roman.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_stroke_roman.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_structure.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_structure.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_structure.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_structure.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_teapot.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_teapot.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_teapot.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_teapot.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_videoresize.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_videoresize.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_videoresize.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_videoresize.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_window.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_window.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_window.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_window.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_font.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_font.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_font.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_font.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\fg_menu.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_menu.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_menu.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_menu.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\mswin\\fg_cursor_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_cursor_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_cursor_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/mswin/fg_cursor_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\mswin\\fg_display_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_display_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_display_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/mswin/fg_display_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\mswin\\fg_ext_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_ext_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_ext_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/mswin/fg_ext_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\mswin\\fg_gamemode_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_gamemode_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_gamemode_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/mswin/fg_gamemode_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\mswin\\fg_init_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_init_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_init_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/mswin/fg_init_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\mswin\\fg_input_devices_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_input_devices_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_input_devices_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/mswin/fg_input_devices_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\mswin\\fg_joystick_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_joystick_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_joystick_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/mswin/fg_joystick_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\mswin\\fg_main_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_main_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_main_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/mswin/fg_main_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\mswin\\fg_menu_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_menu_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_menu_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/mswin/fg_menu_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\mswin\\fg_spaceball_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_spaceball_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_spaceball_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/mswin/fg_spaceball_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\mswin\\fg_state_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_state_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_state_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/mswin/fg_state_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\mswin\\fg_structure_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_structure_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_structure_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/mswin/fg_structure_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\mswin\\fg_window_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_window_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_window_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/mswin/fg_window_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_EXPORTS -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 -Dfreeglut_EXPORTS @CMakeFiles/freeglut.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut.dir\\src\\util\\xparsegeometry_repl.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\util\\xparsegeometry_repl.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/util/xparsegeometry_repl.c",
+  "output": "freeglut/CMakeFiles/freeglut.dir/src/util/xparsegeometry_repl.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_callbacks.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_callbacks.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_callbacks.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_callbacks.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_cursor.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_cursor.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_cursor.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_cursor.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_display.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_display.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_display.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_display.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_ext.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_ext.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_ext.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_ext.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_font_data.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_font_data.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_font_data.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_font_data.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_gamemode.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_gamemode.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_gamemode.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_gamemode.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_geometry.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_geometry.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_geometry.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_geometry.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_gl2.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_gl2.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_gl2.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_gl2.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_init.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_init.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_init.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_init.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_input_devices.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_input_devices.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_input_devices.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_input_devices.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_joystick.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_joystick.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_joystick.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_joystick.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_main.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_main.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_main.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_main.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_misc.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_misc.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_misc.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_misc.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_overlay.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_overlay.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_overlay.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_overlay.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_spaceball.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_spaceball.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_spaceball.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_spaceball.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_state.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_state.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_state.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_state.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_stroke_mono_roman.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_stroke_mono_roman.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_stroke_mono_roman.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_stroke_mono_roman.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_stroke_roman.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_stroke_roman.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_stroke_roman.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_stroke_roman.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_structure.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_structure.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_structure.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_structure.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_teapot.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_teapot.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_teapot.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_teapot.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_videoresize.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_videoresize.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_videoresize.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_videoresize.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_window.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_window.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_window.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_window.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_font.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_font.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_font.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_font.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\fg_menu.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\fg_menu.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/fg_menu.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_menu.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\mswin\\fg_cursor_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_cursor_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_cursor_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/mswin/fg_cursor_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\mswin\\fg_display_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_display_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_display_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/mswin/fg_display_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\mswin\\fg_ext_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_ext_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_ext_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/mswin/fg_ext_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\mswin\\fg_gamemode_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_gamemode_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_gamemode_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/mswin/fg_gamemode_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\mswin\\fg_init_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_init_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_init_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/mswin/fg_init_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\mswin\\fg_input_devices_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_input_devices_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_input_devices_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/mswin/fg_input_devices_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\mswin\\fg_joystick_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_joystick_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_joystick_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/mswin/fg_joystick_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\mswin\\fg_main_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_main_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_main_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/mswin/fg_main_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\mswin\\fg_menu_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_menu_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_menu_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/mswin/fg_menu_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\mswin\\fg_spaceball_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_spaceball_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_spaceball_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/mswin/fg_spaceball_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\mswin\\fg_state_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_state_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_state_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/mswin/fg_state_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\mswin\\fg_structure_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_structure_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_structure_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/mswin/fg_structure_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\mswin\\fg_window_mswin.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\mswin\\fg_window_mswin.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/mswin/fg_window_mswin.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/mswin/fg_window_mswin.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/freeglut",
+  "command": "D:\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/freeglut_static.dir/includes_C.rsp  -Wall -pedantic -O3 -DNDEBUG -o CMakeFiles\\freeglut_static.dir\\src\\util\\xparsegeometry_repl.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\third_party\\freeglut\\src\\util\\xparsegeometry_repl.c",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/third_party/freeglut/src/util/xparsegeometry_repl.c",
+  "output": "freeglut/CMakeFiles/freeglut_static.dir/src/util/xparsegeometry_repl.c.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/Framework",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Framework.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Framework.dir\\ObjectBase.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\Framework\\ObjectBase.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/Framework/ObjectBase.cpp",
+  "output": "src/Framework/CMakeFiles/Framework.dir/ObjectBase.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/Framework",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Framework.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Framework.dir\\WorldBase.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\Framework\\WorldBase.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/Framework/WorldBase.cpp",
+  "output": "src/Framework/CMakeFiles/Framework.dir/WorldBase.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/Framework",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Framework.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Framework.dir\\GameManager.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\Framework\\GameManager.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/Framework/GameManager.cpp",
+  "output": "src/Framework/CMakeFiles/Framework.dir/GameManager.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/Framework",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Framework.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Framework.dir\\SpriteManager.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\Framework\\SpriteManager.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/Framework/SpriteManager.cpp",
+  "output": "src/Framework/CMakeFiles/Framework.dir/SpriteManager.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/GameObject.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameObject.dir\\GameObject.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\GameObject.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/GameObject.cpp",
+  "output": "src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameWorld",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/GameWorld.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameWorld.dir\\GameWorld.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameWorld\\GameWorld.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameWorld/GameWorld.cpp",
+  "output": "src/GameWorld/CMakeFiles/GameWorld.dir/GameWorld.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Background",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Background.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Background.dir\\Background.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Background\\Background.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Background/Background.cpp",
+  "output": "src/GameObject/Background/CMakeFiles/Background.dir/Background.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/PlantingSpot",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/PlantingSpot.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\PlantingSpot.dir\\PlantingSpot.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\PlantingSpot\\PlantingSpot.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/PlantingSpot/PlantingSpot.cpp",
+  "output": "src/GameObject/PlantingSpot/CMakeFiles/PlantingSpot.dir/PlantingSpot.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Plants",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Plants.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Plants.dir\\Plants.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Plants\\Plants.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Plants/Plants.cpp",
+  "output": "src/GameObject/Plants/CMakeFiles/Plants.dir/Plants.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Plants",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Plants.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Plants.dir\\Sunflower.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Plants\\Sunflower.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Plants/Sunflower.cpp",
+  "output": "src/GameObject/Plants/CMakeFiles/Plants.dir/Sunflower.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Plants",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Plants.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Plants.dir\\Peashooter.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Plants\\Peashooter.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Plants/Peashooter.cpp",
+  "output": "src/GameObject/Plants/CMakeFiles/Plants.dir/Peashooter.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Plants",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Plants.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Plants.dir\\Wallnut.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Plants\\Wallnut.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Plants/Wallnut.cpp",
+  "output": "src/GameObject/Plants/CMakeFiles/Plants.dir/Wallnut.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Plants",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Plants.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Plants.dir\\CherryBomb.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Plants\\CherryBomb.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Plants/CherryBomb.cpp",
+  "output": "src/GameObject/Plants/CMakeFiles/Plants.dir/CherryBomb.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Plants",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Plants.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Plants.dir\\Repeater.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Plants\\Repeater.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Plants/Repeater.cpp",
+  "output": "src/GameObject/Plants/CMakeFiles/Plants.dir/Repeater.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Projectiles",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Projectiles.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Projectiles.dir\\Projectiles.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Projectiles\\Projectiles.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Projectiles/Projectiles.cpp",
+  "output": "src/GameObject/Projectiles/CMakeFiles/Projectiles.dir/Projectiles.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Projectiles",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Projectiles.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Projectiles.dir\\Pea.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Projectiles\\Pea.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Projectiles/Pea.cpp",
+  "output": "src/GameObject/Projectiles/CMakeFiles/Projectiles.dir/Pea.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Projectiles",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Projectiles.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Projectiles.dir\\Explosion.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Projectiles\\Explosion.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Projectiles/Explosion.cpp",
+  "output": "src/GameObject/Projectiles/CMakeFiles/Projectiles.dir/Explosion.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Seeds",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Seeds.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Seeds.dir\\Seeds.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Seeds\\Seeds.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Seeds/Seeds.cpp",
+  "output": "src/GameObject/Seeds/CMakeFiles/Seeds.dir/Seeds.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Seeds",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Seeds.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Seeds.dir\\SunflowerSeed.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Seeds\\SunflowerSeed.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Seeds/SunflowerSeed.cpp",
+  "output": "src/GameObject/Seeds/CMakeFiles/Seeds.dir/SunflowerSeed.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Seeds",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Seeds.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Seeds.dir\\PeashooterSeed.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Seeds\\PeashooterSeed.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Seeds/PeashooterSeed.cpp",
+  "output": "src/GameObject/Seeds/CMakeFiles/Seeds.dir/PeashooterSeed.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Seeds",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Seeds.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Seeds.dir\\WallnutSeed.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Seeds\\WallnutSeed.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Seeds/WallnutSeed.cpp",
+  "output": "src/GameObject/Seeds/CMakeFiles/Seeds.dir/WallnutSeed.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Seeds",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Seeds.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Seeds.dir\\CherryBombSeed.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Seeds\\CherryBombSeed.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Seeds/CherryBombSeed.cpp",
+  "output": "src/GameObject/Seeds/CMakeFiles/Seeds.dir/CherryBombSeed.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Seeds",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Seeds.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Seeds.dir\\RepeaterSeed.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Seeds\\RepeaterSeed.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Seeds/RepeaterSeed.cpp",
+  "output": "src/GameObject/Seeds/CMakeFiles/Seeds.dir/RepeaterSeed.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Seeds",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Seeds.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Seeds.dir\\Shovel.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Seeds\\Shovel.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Seeds/Shovel.cpp",
+  "output": "src/GameObject/Seeds/CMakeFiles/Seeds.dir/Shovel.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Seeds",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Seeds.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Seeds.dir\\CooldownMask.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Seeds\\CooldownMask.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Seeds/CooldownMask.cpp",
+  "output": "src/GameObject/Seeds/CMakeFiles/Seeds.dir/CooldownMask.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Sun",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Sun.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Sun.dir\\Sun.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Sun\\Sun.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Sun/Sun.cpp",
+  "output": "src/GameObject/Sun/CMakeFiles/Sun.dir/Sun.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Sun",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Sun.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Sun.dir\\SkySun.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Sun\\SkySun.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Sun/SkySun.cpp",
+  "output": "src/GameObject/Sun/CMakeFiles/Sun.dir/SkySun.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Sun",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Sun.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Sun.dir\\FlowerSun.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Sun\\FlowerSun.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Sun/FlowerSun.cpp",
+  "output": "src/GameObject/Sun/CMakeFiles/Sun.dir/FlowerSun.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Zombies",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Zombies.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Zombies.dir\\Zombies.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Zombies\\Zombies.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Zombies/Zombies.cpp",
+  "output": "src/GameObject/Zombies/CMakeFiles/Zombies.dir/Zombies.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Zombies",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Zombies.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Zombies.dir\\RegularZombie.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Zombies\\RegularZombie.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Zombies/RegularZombie.cpp",
+  "output": "src/GameObject/Zombies/CMakeFiles/Zombies.dir/RegularZombie.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Zombies",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Zombies.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Zombies.dir\\BucketHeadZombie.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Zombies\\BucketHeadZombie.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Zombies/BucketHeadZombie.cpp",
+  "output": "src/GameObject/Zombies/CMakeFiles/Zombies.dir/BucketHeadZombie.cpp.obj"
+},
+{
+  "directory": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/src/GameObject/Zombies",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Zombies.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\Zombies.dir\\PoleVaultingZombie.cpp.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\src\\GameObject\\Zombies\\PoleVaultingZombie.cpp",
+  "file": "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/src/GameObject/Zombies/PoleVaultingZombie.cpp",
+  "output": "src/GameObject/Zombies/CMakeFiles/Zombies.dir/PoleVaultingZombie.cpp.obj"
+}
+]

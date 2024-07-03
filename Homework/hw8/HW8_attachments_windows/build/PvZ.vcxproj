@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{96B64500-E701-3D31-815E-075C97AA48D5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>PvZ</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PvZ.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PvZ</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PvZ.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PvZ</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PvZ.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PvZ</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PvZ.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PvZ</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\Framework;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameWorld;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\freeglut\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\SOIL\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Background;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\PlantingSpot;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Plants;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Projectiles;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Seeds;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Sun;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Zombies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\Framework;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameWorld;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\freeglut\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\SOIL\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Background;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\PlantingSpot;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Plants;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Projectiles;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Seeds;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Sun;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Zombies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\Framework;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameWorld;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\freeglut\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\SOIL\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Background;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\PlantingSpot;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Plants;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Projectiles;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Seeds;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Sun;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Zombies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\Debug\Framework.lib;lib\Debug\GameWorld.lib;lib\Debug\GameObject.lib;lib\Debug\Background.lib;lib\Debug\PlantingSpot.lib;lib\Debug\Plants.lib;lib\Debug\Projectiles.lib;lib\Debug\Seeds.lib;lib\Debug\Sun.lib;lib\Debug\Zombies.lib;lib\Debug\GameWorld.lib;lib\Debug\GameObject.lib;lib\Debug\Background.lib;lib\Debug\PlantingSpot.lib;lib\Debug\Plants.lib;lib\Debug\Projectiles.lib;lib\Debug\Seeds.lib;lib\Debug\Sun.lib;lib\Debug\Zombies.lib;lib\Debug\Framework.lib;lib\Debug\freeglut.lib;opengl32.lib;winmm.lib;lib\Debug\SOIL.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/lib/Debug/PvZ.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/bin/Debug/PvZ.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\Framework;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameWorld;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\freeglut\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\SOIL\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Background;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\PlantingSpot;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Plants;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Projectiles;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Seeds;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Sun;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Zombies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\Framework;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameWorld;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\freeglut\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\SOIL\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Background;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\PlantingSpot;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Plants;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Projectiles;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Seeds;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Sun;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Zombies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\Framework;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameWorld;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\freeglut\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\SOIL\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Background;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\PlantingSpot;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Plants;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Projectiles;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Seeds;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Sun;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Zombies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\Release\Framework.lib;lib\Release\GameWorld.lib;lib\Release\GameObject.lib;lib\Release\Background.lib;lib\Release\PlantingSpot.lib;lib\Release\Plants.lib;lib\Release\Projectiles.lib;lib\Release\Seeds.lib;lib\Release\Sun.lib;lib\Release\Zombies.lib;lib\Release\GameWorld.lib;lib\Release\GameObject.lib;lib\Release\Background.lib;lib\Release\PlantingSpot.lib;lib\Release\Plants.lib;lib\Release\Projectiles.lib;lib\Release\Seeds.lib;lib\Release\Sun.lib;lib\Release\Zombies.lib;lib\Release\Framework.lib;lib\Release\freeglut.lib;opengl32.lib;winmm.lib;lib\Release\SOIL.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/lib/Release/PvZ.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/bin/Release/PvZ.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\Framework;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameWorld;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\freeglut\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\SOIL\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Background;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\PlantingSpot;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Plants;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Projectiles;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Seeds;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Sun;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Zombies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\Framework;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameWorld;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\freeglut\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\SOIL\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Background;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\PlantingSpot;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Plants;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Projectiles;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Seeds;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Sun;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Zombies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\Framework;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameWorld;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\freeglut\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\SOIL\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Background;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\PlantingSpot;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Plants;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Projectiles;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Seeds;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Sun;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Zombies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\MinSizeRel\Framework.lib;lib\MinSizeRel\GameWorld.lib;lib\MinSizeRel\GameObject.lib;lib\MinSizeRel\Background.lib;lib\MinSizeRel\PlantingSpot.lib;lib\MinSizeRel\Plants.lib;lib\MinSizeRel\Projectiles.lib;lib\MinSizeRel\Seeds.lib;lib\MinSizeRel\Sun.lib;lib\MinSizeRel\Zombies.lib;lib\MinSizeRel\GameWorld.lib;lib\MinSizeRel\GameObject.lib;lib\MinSizeRel\Background.lib;lib\MinSizeRel\PlantingSpot.lib;lib\MinSizeRel\Plants.lib;lib\MinSizeRel\Projectiles.lib;lib\MinSizeRel\Seeds.lib;lib\MinSizeRel\Sun.lib;lib\MinSizeRel\Zombies.lib;lib\MinSizeRel\Framework.lib;lib\MinSizeRel\freeglut.lib;opengl32.lib;winmm.lib;lib\MinSizeRel\SOIL.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/lib/MinSizeRel/PvZ.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/bin/MinSizeRel/PvZ.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\Framework;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameWorld;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\freeglut\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\SOIL\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Background;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\PlantingSpot;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Plants;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Projectiles;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Seeds;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Sun;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Zombies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\Framework;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameWorld;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\freeglut\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\SOIL\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Background;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\PlantingSpot;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Plants;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Projectiles;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Seeds;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Sun;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Zombies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\Framework;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameWorld;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\freeglut\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\third_party\SOIL\include;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Background;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\PlantingSpot;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Plants;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Projectiles;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Seeds;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Sun;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\GameObject\Zombies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\RelWithDebInfo\Framework.lib;lib\RelWithDebInfo\GameWorld.lib;lib\RelWithDebInfo\GameObject.lib;lib\RelWithDebInfo\Background.lib;lib\RelWithDebInfo\PlantingSpot.lib;lib\RelWithDebInfo\Plants.lib;lib\RelWithDebInfo\Projectiles.lib;lib\RelWithDebInfo\Seeds.lib;lib\RelWithDebInfo\Sun.lib;lib\RelWithDebInfo\Zombies.lib;lib\RelWithDebInfo\GameWorld.lib;lib\RelWithDebInfo\GameObject.lib;lib\RelWithDebInfo\Background.lib;lib\RelWithDebInfo\PlantingSpot.lib;lib\RelWithDebInfo\Plants.lib;lib\RelWithDebInfo\Projectiles.lib;lib\RelWithDebInfo\Seeds.lib;lib\RelWithDebInfo\Sun.lib;lib\RelWithDebInfo\Zombies.lib;lib\RelWithDebInfo\Framework.lib;lib\RelWithDebInfo\freeglut.lib;opengl32.lib;winmm.lib;lib\RelWithDebInfo\SOIL.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/lib/RelWithDebInfo/PvZ.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/bin/RelWithDebInfo/PvZ.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\mingw64\bin\cmake.exe -SE:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows -BE:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build --check-stamp-file E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\mingw64\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\mingw64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;D:\mingw64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;D:\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\mingw64\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\mingw64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\CMakeFiles\3.26.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\mingw64\bin\cmake.exe -SE:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows -BE:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build --check-stamp-file E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\mingw64\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\mingw64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;D:\mingw64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;D:\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\mingw64\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\mingw64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\CMakeFiles\3.26.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\mingw64\bin\cmake.exe -SE:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows -BE:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build --check-stamp-file E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\mingw64\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\mingw64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;D:\mingw64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;D:\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\mingw64\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\mingw64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\CMakeFiles\3.26.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\mingw64\bin\cmake.exe -SE:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows -BE:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build --check-stamp-file E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\mingw64\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\mingw64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;D:\mingw64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;D:\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\mingw64\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\mingw64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\CMakeFiles\3.26.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\ZERO_CHECK.vcxproj">
+      <Project>{3ADE3F88-D853-3BA5-A5A0-D6655BE14CCB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\src\Framework\Framework.vcxproj">
+      <Project>{5A78807D-A5E9-3848-A943-7F1774A99FC9}</Project>
+      <Name>Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\src\GameObject\GameObject.vcxproj">
+      <Project>{A69AE4A1-2A05-3CE6-A33B-CCE3CD266EDD}</Project>
+      <Name>GameObject</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\SOIL\SOIL.vcxproj">
+      <Project>{4641B977-FF57-3934-8A86-D8691EC427D5}</Project>
+      <Name>SOIL</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Course\G1S2\CS100\Homework\hw8\HW8_attachments_windows\build\freeglut\freeglut.vcxproj">
+      <Project>{6CF9BC04-2C57-3BD5-8075-2386436D666C}</Project>
+      <Name>freeglut</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

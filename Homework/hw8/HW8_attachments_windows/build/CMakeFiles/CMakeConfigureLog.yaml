@@ -1,0 +1,1825 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/mingw64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      生成启动时间为 2023/6/15 16:19:57。
+      
+      节点 1 上的项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.79
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/mingw64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      生成启动时间为 2023/6/15 16:19:59。
+      
+      节点 1 上的项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:02.01
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/mingw64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-7x4jrj"
+      binary: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-7x4jrj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-7x4jrj
+        
+        Run Build Command(s):D:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ba8a3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/15 16:20:02。
+        
+        节点 1 上的项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7x4jrj\\cmTC_ba8a3.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_ba8a3.dir\\Debug\\”。
+          正在创建目录“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7x4jrj\\Debug\\”。
+          正在创建目录“cmTC_ba8a3.dir\\Debug\\cmTC_ba8a3.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_ba8a3.dir\\Debug\\cmTC_ba8a3.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba8a3.dir\\Debug\\\\" /Fd"cmTC_ba8a3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCCompilerABI.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba8a3.dir\\Debug\\\\" /Fd"cmTC_ba8a3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7x4jrj\\Debug\\cmTC_ba8a3.exe" /INCREMENTAL /ILK:"cmTC_ba8a3.dir\\Debug\\cmTC_ba8a3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-7x4jrj/Debug/cmTC_ba8a3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-7x4jrj/Debug/cmTC_ba8a3.lib" /MACHINE:X64  /machine:x64 cmTC_ba8a3.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ba8a3.vcxproj -> E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7x4jrj\\Debug\\cmTC_ba8a3.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_ba8a3.dir\\Debug\\cmTC_ba8a3.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_ba8a3.dir\\Debug\\cmTC_ba8a3.tlog\\cmTC_ba8a3.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7x4jrj\\cmTC_ba8a3.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.85
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/mingw64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-mtwqwr"
+      binary: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-mtwqwr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-mtwqwr
+        
+        Run Build Command(s):D:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9107f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/15 16:20:04。
+        
+        节点 1 上的项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mtwqwr\\cmTC_9107f.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_9107f.dir\\Debug\\”。
+          正在创建目录“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mtwqwr\\Debug\\”。
+          正在创建目录“cmTC_9107f.dir\\Debug\\cmTC_9107f.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_9107f.dir\\Debug\\cmTC_9107f.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9107f.dir\\Debug\\\\" /Fd"cmTC_9107f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9107f.dir\\Debug\\\\" /Fd"cmTC_9107f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mtwqwr\\Debug\\cmTC_9107f.exe" /INCREMENTAL /ILK:"cmTC_9107f.dir\\Debug\\cmTC_9107f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-mtwqwr/Debug/cmTC_9107f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-mtwqwr/Debug/cmTC_9107f.lib" /MACHINE:X64  /machine:x64 cmTC_9107f.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_9107f.vcxproj -> E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mtwqwr\\Debug\\cmTC_9107f.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_9107f.dir\\Debug\\cmTC_9107f.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_9107f.dir\\Debug\\cmTC_9107f.tlog\\cmTC_9107f.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mtwqwr\\cmTC_9107f.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.96
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:362 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/types.h"
+    directories:
+      source: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-dq05th"
+      binary: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-dq05th"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-dq05th
+        
+        Run Build Command(s):D:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_15206.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/15 16:20:07。
+        
+        节点 1 上的项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dq05th\\cmTC_15206.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_15206.dir\\Debug\\”。
+          正在创建目录“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dq05th\\Debug\\”。
+          正在创建目录“cmTC_15206.dir\\Debug\\cmTC_15206.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_15206.dir\\Debug\\cmTC_15206.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15206.dir\\Debug\\\\" /Fd"cmTC_15206.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dq05th\\HAVE_SYS_TYPES_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_SYS_TYPES_H.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15206.dir\\Debug\\\\" /Fd"cmTC_15206.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dq05th\\HAVE_SYS_TYPES_H.c"
+        Link:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dq05th\\Debug\\cmTC_15206.exe" /INCREMENTAL /ILK:"cmTC_15206.dir\\Debug\\cmTC_15206.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-dq05th/Debug/cmTC_15206.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-dq05th/Debug/cmTC_15206.lib" /MACHINE:X64  /machine:x64 cmTC_15206.dir\\Debug\\HAVE_SYS_TYPES_H.obj
+          cmTC_15206.vcxproj -> E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dq05th\\Debug\\cmTC_15206.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_15206.dir\\Debug\\cmTC_15206.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_15206.dir\\Debug\\cmTC_15206.tlog\\cmTC_15206.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dq05th\\cmTC_15206.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.73
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:363 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file unistd.h"
+    directories:
+      source: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-knxxei"
+      binary: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-knxxei"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-knxxei
+        
+        Run Build Command(s):D:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_84f6e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/15 16:20:09。
+        
+        节点 1 上的项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-knxxei\\cmTC_84f6e.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_84f6e.dir\\Debug\\”。
+          正在创建目录“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-knxxei\\Debug\\”。
+          正在创建目录“cmTC_84f6e.dir\\Debug\\cmTC_84f6e.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_84f6e.dir\\Debug\\cmTC_84f6e.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84f6e.dir\\Debug\\\\" /Fd"cmTC_84f6e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-knxxei\\HAVE_UNISTD_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_UNISTD_H.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84f6e.dir\\Debug\\\\" /Fd"cmTC_84f6e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-knxxei\\HAVE_UNISTD_H.c"
+        E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-knxxei\\HAVE_UNISTD_H.c(2,10): fatal  error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-knxxei\\cmTC_84f6e.vcxproj]
+        已完成生成项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-knxxei\\cmTC_84f6e.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-knxxei\\cmTC_84f6e.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-knxxei\\HAVE_UNISTD_H.c(2,10): fatal  error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-knxxei\\cmTC_84f6e.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:01.49
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:364 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/time.h"
+    directories:
+      source: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-sxbkg5"
+      binary: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-sxbkg5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-sxbkg5
+        
+        Run Build Command(s):D:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_813e3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/15 16:20:11。
+        
+        节点 1 上的项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxbkg5\\cmTC_813e3.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_813e3.dir\\Debug\\”。
+          正在创建目录“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxbkg5\\Debug\\”。
+          正在创建目录“cmTC_813e3.dir\\Debug\\cmTC_813e3.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_813e3.dir\\Debug\\cmTC_813e3.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_813e3.dir\\Debug\\\\" /Fd"cmTC_813e3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxbkg5\\HAVE_SYS_TIME_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_SYS_TIME_H.c
+        E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxbkg5\\HAVE_SYS_TIME_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxbkg5\\cmTC_813e3.vcxproj]
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_813e3.dir\\Debug\\\\" /Fd"cmTC_813e3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxbkg5\\HAVE_SYS_TIME_H.c"
+        已完成生成项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxbkg5\\cmTC_813e3.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxbkg5\\cmTC_813e3.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxbkg5\\HAVE_SYS_TIME_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxbkg5\\cmTC_813e3.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:01.45
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:365 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file stdbool.h"
+    directories:
+      source: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-udpl4c"
+      binary: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-udpl4c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_STDBOOL_H"
+      cached: true
+      stdout: |
+        Change Dir: E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-udpl4c
+        
+        Run Build Command(s):D:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_21704.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/15 16:20:13。
+        
+        节点 1 上的项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udpl4c\\cmTC_21704.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_21704.dir\\Debug\\”。
+          正在创建目录“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udpl4c\\Debug\\”。
+          正在创建目录“cmTC_21704.dir\\Debug\\cmTC_21704.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_21704.dir\\Debug\\cmTC_21704.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21704.dir\\Debug\\\\" /Fd"cmTC_21704.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udpl4c\\HAVE_STDBOOL_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_STDBOOL_H.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21704.dir\\Debug\\\\" /Fd"cmTC_21704.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udpl4c\\HAVE_STDBOOL_H.c"
+        Link:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udpl4c\\Debug\\cmTC_21704.exe" /INCREMENTAL /ILK:"cmTC_21704.dir\\Debug\\cmTC_21704.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-udpl4c/Debug/cmTC_21704.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-udpl4c/Debug/cmTC_21704.lib" /MACHINE:X64  /machine:x64 cmTC_21704.dir\\Debug\\HAVE_STDBOOL_H.obj
+          cmTC_21704.vcxproj -> E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udpl4c\\Debug\\cmTC_21704.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_21704.dir\\Debug\\cmTC_21704.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_21704.dir\\Debug\\cmTC_21704.tlog\\cmTC_21704.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udpl4c\\cmTC_21704.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.66
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:366 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/param.h"
+    directories:
+      source: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-7iixk3"
+      binary: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-7iixk3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_SYS_PARAM_H"
+      cached: true
+      stdout: |
+        Change Dir: E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-7iixk3
+        
+        Run Build Command(s):D:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_94f4e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/15 16:20:15。
+        
+        节点 1 上的项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7iixk3\\cmTC_94f4e.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_94f4e.dir\\Debug\\”。
+          正在创建目录“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7iixk3\\Debug\\”。
+          正在创建目录“cmTC_94f4e.dir\\Debug\\cmTC_94f4e.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_94f4e.dir\\Debug\\cmTC_94f4e.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_94f4e.dir\\Debug\\\\" /Fd"cmTC_94f4e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7iixk3\\HAVE_SYS_PARAM_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_SYS_PARAM_H.c
+        E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7iixk3\\HAVE_SYS_PARAM_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/param.h”: No such file or directory [E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7iixk3\\cmTC_94f4e.vcxproj]
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_94f4e.dir\\Debug\\\\" /Fd"cmTC_94f4e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7iixk3\\HAVE_SYS_PARAM_H.c"
+        已完成生成项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7iixk3\\cmTC_94f4e.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7iixk3\\cmTC_94f4e.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7iixk3\\HAVE_SYS_PARAM_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/param.h”: No such file or directory [E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7iixk3\\cmTC_94f4e.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:01.48
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:367 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/ioctl.h"
+    directories:
+      source: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-wegvr6"
+      binary: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-wegvr6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_SYS_IOCTL_H"
+      cached: true
+      stdout: |
+        Change Dir: E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-wegvr6
+        
+        Run Build Command(s):D:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_41852.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/15 16:20:18。
+        
+        节点 1 上的项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wegvr6\\cmTC_41852.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_41852.dir\\Debug\\”。
+          正在创建目录“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wegvr6\\Debug\\”。
+          正在创建目录“cmTC_41852.dir\\Debug\\cmTC_41852.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_41852.dir\\Debug\\cmTC_41852.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41852.dir\\Debug\\\\" /Fd"cmTC_41852.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wegvr6\\HAVE_SYS_IOCTL_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_SYS_IOCTL_H.c
+        E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wegvr6\\HAVE_SYS_IOCTL_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/ioctl.h”: No such file or directory [E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wegvr6\\cmTC_41852.vcxproj]
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41852.dir\\Debug\\\\" /Fd"cmTC_41852.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wegvr6\\HAVE_SYS_IOCTL_H.c"
+        已完成生成项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wegvr6\\cmTC_41852.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wegvr6\\cmTC_41852.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wegvr6\\HAVE_SYS_IOCTL_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/ioctl.h”: No such file or directory [E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wegvr6\\cmTC_41852.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:01.53
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:368 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file fcntl.h"
+    directories:
+      source: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-ilx2qb"
+      binary: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-ilx2qb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_FCNTL_H"
+      cached: true
+      stdout: |
+        Change Dir: E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-ilx2qb
+        
+        Run Build Command(s):D:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7de63.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/15 16:20:20。
+        
+        节点 1 上的项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ilx2qb\\cmTC_7de63.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_7de63.dir\\Debug\\”。
+          正在创建目录“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ilx2qb\\Debug\\”。
+          正在创建目录“cmTC_7de63.dir\\Debug\\cmTC_7de63.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_7de63.dir\\Debug\\cmTC_7de63.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7de63.dir\\Debug\\\\" /Fd"cmTC_7de63.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ilx2qb\\HAVE_FCNTL_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_FCNTL_H.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7de63.dir\\Debug\\\\" /Fd"cmTC_7de63.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ilx2qb\\HAVE_FCNTL_H.c"
+        Link:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ilx2qb\\Debug\\cmTC_7de63.exe" /INCREMENTAL /ILK:"cmTC_7de63.dir\\Debug\\cmTC_7de63.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-ilx2qb/Debug/cmTC_7de63.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-ilx2qb/Debug/cmTC_7de63.lib" /MACHINE:X64  /machine:x64 cmTC_7de63.dir\\Debug\\HAVE_FCNTL_H.obj
+          cmTC_7de63.vcxproj -> E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ilx2qb\\Debug\\cmTC_7de63.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_7de63.dir\\Debug\\cmTC_7de63.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_7de63.dir\\Debug\\cmTC_7de63.tlog\\cmTC_7de63.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ilx2qb\\cmTC_7de63.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.47
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:369 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file usbhid.h"
+    directories:
+      source: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-xiexzt"
+      binary: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-xiexzt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_USBHID_H"
+      cached: true
+      stdout: |
+        Change Dir: E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-xiexzt
+        
+        Run Build Command(s):D:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_09a12.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/15 16:20:22。
+        
+        节点 1 上的项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xiexzt\\cmTC_09a12.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_09a12.dir\\Debug\\”。
+          正在创建目录“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xiexzt\\Debug\\”。
+          正在创建目录“cmTC_09a12.dir\\Debug\\cmTC_09a12.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_09a12.dir\\Debug\\cmTC_09a12.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_09a12.dir\\Debug\\\\" /Fd"cmTC_09a12.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xiexzt\\HAVE_USBHID_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_USBHID_H.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_09a12.dir\\Debug\\\\" /Fd"cmTC_09a12.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xiexzt\\HAVE_USBHID_H.c"
+        E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xiexzt\\HAVE_USBHID_H.c(2,10): fatal  error C1083: 无法打开包括文件: “usbhid.h”: No such file or directory [E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xiexzt\\cmTC_09a12.vcxproj]
+        已完成生成项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xiexzt\\cmTC_09a12.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xiexzt\\cmTC_09a12.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xiexzt\\HAVE_USBHID_H.c(2,10): fatal  error C1083: 无法打开包括文件: “usbhid.h”: No such file or directory [E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xiexzt\\cmTC_09a12.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:01.36
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:370 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for gettimeofday"
+    directories:
+      source: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-7sni4l"
+      binary: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-7sni4l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_GETTIMEOFDAY"
+      cached: true
+      stdout: |
+        Change Dir: E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-7sni4l
+        
+        Run Build Command(s):D:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b1df2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/15 16:20:23。
+        
+        节点 1 上的项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7sni4l\\cmTC_b1df2.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_b1df2.dir\\Debug\\”。
+          正在创建目录“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7sni4l\\Debug\\”。
+          正在创建目录“cmTC_b1df2.dir\\Debug\\cmTC_b1df2.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_b1df2.dir\\Debug\\cmTC_b1df2.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b1df2.dir\\Debug\\\\" /Fd"cmTC_b1df2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7sni4l\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b1df2.dir\\Debug\\\\" /Fd"cmTC_b1df2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7sni4l\\CheckFunctionExists.c"
+        Link:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7sni4l\\Debug\\cmTC_b1df2.exe" /INCREMENTAL /ILK:"cmTC_b1df2.dir\\Debug\\cmTC_b1df2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-7sni4l/Debug/cmTC_b1df2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-7sni4l/Debug/cmTC_b1df2.lib" /MACHINE:X64  /machine:x64 cmTC_b1df2.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 gettimeofday，函数 main 中引用了该符号 [E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7sni4l\\cmTC_b1df2.vcxproj]
+        E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7sni4l\\Debug\\cmTC_b1df2.exe : fatal error LNK1120: 1 个无法解析的外部命令 [E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7sni4l\\cmTC_b1df2.vcxproj]
+        已完成生成项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7sni4l\\cmTC_b1df2.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7sni4l\\cmTC_b1df2.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 gettimeofday，函数 main 中引用了该符号 [E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7sni4l\\cmTC_b1df2.vcxproj]
+          E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7sni4l\\Debug\\cmTC_b1df2.exe : fatal error LNK1120: 1 个无法解析的外部命令 [E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7sni4l\\cmTC_b1df2.vcxproj]
+        
+            0 个警告
+            2 个错误
+        
+        已用时间 00:00:01.58
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:371 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for XParseGeometry"
+    directories:
+      source: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-rkpuy4"
+      binary: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-rkpuy4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_XPARSEGEOMETRY"
+      cached: true
+      stdout: |
+        Change Dir: E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-rkpuy4
+        
+        Run Build Command(s):D:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_822ae.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/15 16:20:26。
+        
+        节点 1 上的项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkpuy4\\cmTC_822ae.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_822ae.dir\\Debug\\”。
+          正在创建目录“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkpuy4\\Debug\\”。
+          正在创建目录“cmTC_822ae.dir\\Debug\\cmTC_822ae.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_822ae.dir\\Debug\\cmTC_822ae.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=XParseGeometry /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_822ae.dir\\Debug\\\\" /Fd"cmTC_822ae.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkpuy4\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=XParseGeometry /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_822ae.dir\\Debug\\\\" /Fd"cmTC_822ae.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkpuy4\\CheckFunctionExists.c"
+        Link:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkpuy4\\Debug\\cmTC_822ae.exe" /INCREMENTAL /ILK:"cmTC_822ae.dir\\Debug\\cmTC_822ae.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-rkpuy4/Debug/cmTC_822ae.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-rkpuy4/Debug/cmTC_822ae.lib" /MACHINE:X64  /machine:x64 cmTC_822ae.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 XParseGeometry，函数 main 中引用了该符号 [E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkpuy4\\cmTC_822ae.vcxproj]
+        E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkpuy4\\Debug\\cmTC_822ae.exe : fatal error LNK1120: 1 个无法解析的外部命令 [E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkpuy4\\cmTC_822ae.vcxproj]
+        已完成生成项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkpuy4\\cmTC_822ae.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkpuy4\\cmTC_822ae.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 XParseGeometry，函数 main 中引用了该符号 [E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkpuy4\\cmTC_822ae.vcxproj]
+          E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkpuy4\\Debug\\cmTC_822ae.exe : fatal error LNK1120: 1 个无法解析的外部命令 [E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkpuy4\\cmTC_822ae.vcxproj]
+        
+            0 个警告
+            2 个错误
+        
+        已用时间 00:00:01.43
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:379 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file stdint.h"
+    directories:
+      source: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-869s4u"
+      binary: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-869s4u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-869s4u
+        
+        Run Build Command(s):D:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ae222.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/15 16:20:28。
+        
+        节点 1 上的项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-869s4u\\cmTC_ae222.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_ae222.dir\\Debug\\”。
+          正在创建目录“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-869s4u\\Debug\\”。
+          正在创建目录“cmTC_ae222.dir\\Debug\\cmTC_ae222.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_ae222.dir\\Debug\\cmTC_ae222.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae222.dir\\Debug\\\\" /Fd"cmTC_ae222.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-869s4u\\HAVE_STDINT_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_STDINT_H.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae222.dir\\Debug\\\\" /Fd"cmTC_ae222.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-869s4u\\HAVE_STDINT_H.c"
+        Link:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-869s4u\\Debug\\cmTC_ae222.exe" /INCREMENTAL /ILK:"cmTC_ae222.dir\\Debug\\cmTC_ae222.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-869s4u/Debug/cmTC_ae222.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-869s4u/Debug/cmTC_ae222.lib" /MACHINE:X64  /machine:x64 cmTC_ae222.dir\\Debug\\HAVE_STDINT_H.obj
+          cmTC_ae222.vcxproj -> E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-869s4u\\Debug\\cmTC_ae222.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_ae222.dir\\Debug\\cmTC_ae222.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_ae222.dir\\Debug\\cmTC_ae222.tlog\\cmTC_ae222.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-869s4u\\cmTC_ae222.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.57
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:380 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file inttypes.h"
+    directories:
+      source: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-ywwf7t"
+      binary: "E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-ywwf7t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-ywwf7t
+        
+        Run Build Command(s):D:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b3512.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/6/15 16:20:30。
+        
+        节点 1 上的项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ywwf7t\\cmTC_b3512.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_b3512.dir\\Debug\\”。
+          正在创建目录“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ywwf7t\\Debug\\”。
+          正在创建目录“cmTC_b3512.dir\\Debug\\cmTC_b3512.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_b3512.dir\\Debug\\cmTC_b3512.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b3512.dir\\Debug\\\\" /Fd"cmTC_b3512.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ywwf7t\\HAVE_INTTYPES_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_INTTYPES_H.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b3512.dir\\Debug\\\\" /Fd"cmTC_b3512.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ywwf7t\\HAVE_INTTYPES_H.c"
+        Link:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ywwf7t\\Debug\\cmTC_b3512.exe" /INCREMENTAL /ILK:"cmTC_b3512.dir\\Debug\\cmTC_b3512.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-ywwf7t/Debug/cmTC_b3512.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Course/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-ywwf7t/Debug/cmTC_b3512.lib" /MACHINE:X64  /machine:x64 cmTC_b3512.dir\\Debug\\HAVE_INTTYPES_H.obj
+          cmTC_b3512.vcxproj -> E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ywwf7t\\Debug\\cmTC_b3512.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_b3512.dir\\Debug\\cmTC_b3512.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_b3512.dir\\Debug\\cmTC_b3512.tlog\\cmTC_b3512.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\Course\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ywwf7t\\cmTC_b3512.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.58
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/3.27.6/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/mingw64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/3.27.6/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-alwoo5"
+      binary: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-alwoo5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-alwoo5'
+        
+        Run Build Command(s): "D:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_b780d/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b780d.dir\\build.make CMakeFiles/cmTC_b780d.dir/build
+        mingw32-make[1]: Entering directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-alwoo5'
+        Building C object CMakeFiles/cmTC_b780d.dir/CMakeCCompilerABI.c.obj
+        D:\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_b780d.dir\\CMakeCCompilerABI.c.obj -c "D:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=D:\\mingw64\\bin\\gcc.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/r/winlibs64ucrt_stage/inst_gcc-12.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=D:/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=D:/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=D:/Prog/winlibs64ucrt_stage/custombuilt --with-isl=D:/Prog/winlibs64ucrt_stage/custombuilt --enable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/r/winlibs64ucrt_stage/gcc-12.2.0/build_mingw/mingw-w64 CFLAGS='-ID:/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32 -Wno-int-conversion' CXXFLAGS=-Wno-int-conversion LDFLAGS='-pthread -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b780d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_b780d.dir\\'
+         d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1.exe -quiet -v -iprefix d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/ -D_REENTRANT D:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_b780d.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Tao_qu\\AppData\\Local\\Temp\\cctUPM1q.s
+        GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) version 12.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "d:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include"
+        ignoring nonexistent directory "R:/winlibs64ucrt_stage/inst_gcc-12.2.0/share/gcc/include"
+        ignoring nonexistent directory "/r/winlibs64ucrt_stage/inst_gcc-12.2.0/share/gcc/include"
+        ignoring duplicate directory "d:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"
+        ignoring duplicate directory "d:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/include
+         d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include
+         d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed
+         d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) version 12.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: d8294a97f74a1349f5018ada47a85119
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b780d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_b780d.dir\\'
+         d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_b780d.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Tao_qu\\AppData\\Local\\Temp\\cctUPM1q.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.40
+        COMPILER_PATH=d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;d:/mingw64/bin/../libexec/gcc/;d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;d:/mingw64/bin/../lib/gcc/;d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b780d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_b780d.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_b780d.exe
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b780d.dir\\link.txt --verbose=1
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_b780d.dir/objects.a
+        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_b780d.dir/objects.a @CMakeFiles\\cmTC_b780d.dir\\objects1.rsp
+        D:\\mingw64\\bin\\gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_b780d.dir/objects.a -Wl,--no-whole-archive -o cmTC_b780d.exe -Wl,--out-implib,libcmTC_b780d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=D:\\mingw64\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/r/winlibs64ucrt_stage/inst_gcc-12.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=D:/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=D:/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=D:/Prog/winlibs64ucrt_stage/custombuilt --with-isl=D:/Prog/winlibs64ucrt_stage/custombuilt --enable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/r/winlibs64ucrt_stage/gcc-12.2.0/build_mingw/mingw-w64 CFLAGS='-ID:/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32 -Wno-int-conversion' CXXFLAGS=-Wno-int-conversion LDFLAGS='-pthread -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 
+        COMPILER_PATH=d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;d:/mingw64/bin/../libexec/gcc/;d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;d:/mingw64/bin/../lib/gcc/;d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b780d.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b780d.'
+         d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Tao_qu\\AppData\\Local\\Temp\\ccYzXpH0.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_b780d.exe d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -Ld:/mingw64/bin/../lib/gcc -Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --whole-archive CMakeFiles\\cmTC_b780d.dir/objects.a --no-whole-archive --out-implib libcmTC_b780d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b780d.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b780d.'
+        mingw32-make[1]: Leaving directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-alwoo5'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include]
+          add: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include]
+          add: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed]
+          add: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include]
+        collapse include dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include] ==> [D:/mingw64/include]
+        collapse include dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed]
+        collapse include dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include] ==> [D:/mingw64/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include;D:/mingw64/include;D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed;D:/mingw64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-alwoo5']
+        ignore line: []
+        ignore line: [Run Build Command(s): "D:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_b780d/fast]
+        ignore line: [D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b780d.dir\\build.make CMakeFiles/cmTC_b780d.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-alwoo5']
+        ignore line: [Building C object CMakeFiles/cmTC_b780d.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_b780d.dir\\CMakeCCompilerABI.c.obj -c "D:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\mingw64\\bin\\gcc.exe]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../configure --prefix=/r/winlibs64ucrt_stage/inst_gcc-12.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=D:/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=D:/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=D:/Prog/winlibs64ucrt_stage/custombuilt --with-isl=D:/Prog/winlibs64ucrt_stage/custombuilt --enable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/r/winlibs64ucrt_stage/gcc-12.2.0/build_mingw/mingw-w64 CFLAGS='-ID:/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32 -Wno-int-conversion' CXXFLAGS=-Wno-int-conversion LDFLAGS='-pthread -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b780d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_b780d.dir\\']
+        ignore line: [ d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1.exe -quiet -v -iprefix d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/ -D_REENTRANT D:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_b780d.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Tao_qu\\AppData\\Local\\Temp\\cctUPM1q.s]
+        ignore line: [GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders) version 12.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "d:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include"]
+        ignore line: [ignoring nonexistent directory "R:/winlibs64ucrt_stage/inst_gcc-12.2.0/share/gcc/include"]
+        ignore line: [ignoring nonexistent directory "/r/winlibs64ucrt_stage/inst_gcc-12.2.0/share/gcc/include"]
+        ignore line: [ignoring duplicate directory "d:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "d:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/include]
+        ignore line: [ d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include]
+        ignore line: [ d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed]
+        ignore line: [ d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders) version 12.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: d8294a97f74a1349f5018ada47a85119]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b780d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_b780d.dir\\']
+        ignore line: [ d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_b780d.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Tao_qu\\AppData\\Local\\Temp\\cctUPM1q.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders) 2.40]
+        ignore line: [COMPILER_PATH=d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/]
+        ignore line: [d:/mingw64/bin/../libexec/gcc/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b780d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_b780d.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_b780d.exe]
+        ignore line: ["D:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b780d.dir\\link.txt --verbose=1]
+        ignore line: ["D:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_b780d.dir/objects.a]
+        ignore line: [D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_b780d.dir/objects.a @CMakeFiles\\cmTC_b780d.dir\\objects1.rsp]
+        ignore line: [D:\\mingw64\\bin\\gcc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_b780d.dir/objects.a -Wl --no-whole-archive -o cmTC_b780d.exe -Wl --out-implib libcmTC_b780d.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\mingw64\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../configure --prefix=/r/winlibs64ucrt_stage/inst_gcc-12.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=D:/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=D:/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=D:/Prog/winlibs64ucrt_stage/custombuilt --with-isl=D:/Prog/winlibs64ucrt_stage/custombuilt --enable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/r/winlibs64ucrt_stage/gcc-12.2.0/build_mingw/mingw-w64 CFLAGS='-ID:/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32 -Wno-int-conversion' CXXFLAGS=-Wno-int-conversion LDFLAGS='-pthread -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders) ]
+        ignore line: [COMPILER_PATH=d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/]
+        ignore line: [d:/mingw64/bin/../libexec/gcc/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b780d.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b780d.']
+        link line: [ d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Tao_qu\\AppData\\Local\\Temp\\ccYzXpH0.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_b780d.exe d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -Ld:/mingw64/bin/../lib/gcc -Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --whole-archive CMakeFiles\\cmTC_b780d.dir/objects.a --no-whole-archive --out-implib libcmTC_b780d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o]
+          arg [d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Tao_qu\\AppData\\Local\\Temp\\ccYzXpH0.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_b780d.exe] ==> ignore
+          arg [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o] ==> obj [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o]
+          arg [-Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0] ==> dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0]
+          arg [-Ld:/mingw64/bin/../lib/gcc] ==> dir [d:/mingw64/bin/../lib/gcc]
+          arg [-Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib] ==> dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib]
+          arg [-Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../..] ==> dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../..]
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_b780d.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_b780d.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o] ==> obj [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [D:/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o]
+        collapse obj [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o]
+        collapse library dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0]
+        collapse library dir [d:/mingw64/bin/../lib/gcc] ==> [D:/mingw64/lib/gcc]
+        collapse library dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib] ==> [D:/mingw64/lib]
+        collapse library dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib] ==> [D:/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../..] ==> [D:/mingw64/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [D:/mingw64/x86_64-w64-mingw32/lib/crt2.o;D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o;D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o]
+        implicit dirs: [D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0;D:/mingw64/lib/gcc;D:/mingw64/x86_64-w64-mingw32/lib;D:/mingw64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-mzcd5s"
+      binary: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-mzcd5s"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-mzcd5s'
+        
+        Run Build Command(s): "D:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_e4609/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e4609.dir\\build.make CMakeFiles/cmTC_e4609.dir/build
+        mingw32-make[1]: Entering directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-mzcd5s'
+        Building CXX object CMakeFiles/cmTC_e4609.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_e4609.dir\\CMakeCXXCompilerABI.cpp.obj -c "D:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=D:\\mingw64\\bin\\g++.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/r/winlibs64ucrt_stage/inst_gcc-12.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=D:/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=D:/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=D:/Prog/winlibs64ucrt_stage/custombuilt --with-isl=D:/Prog/winlibs64ucrt_stage/custombuilt --enable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/r/winlibs64ucrt_stage/gcc-12.2.0/build_mingw/mingw-w64 CFLAGS='-ID:/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32 -Wno-int-conversion' CXXFLAGS=-Wno-int-conversion LDFLAGS='-pthread -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e4609.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_e4609.dir\\'
+         d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1plus.exe -quiet -v -iprefix d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/ -D_REENTRANT D:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_e4609.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\Tao_qu\\AppData\\Local\\Temp\\cc37d1au.s
+        GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) version 12.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "d:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"
+        ignoring duplicate directory "d:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"
+        ignoring duplicate directory "d:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"
+        ignoring duplicate directory "d:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include"
+        ignoring nonexistent directory "R:/winlibs64ucrt_stage/inst_gcc-12.2.0/share/gcc/include"
+        ignoring nonexistent directory "/r/winlibs64ucrt_stage/inst_gcc-12.2.0/share/gcc/include"
+        ignoring duplicate directory "d:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"
+        ignoring duplicate directory "d:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0
+         d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32
+         d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward
+         d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/include
+         d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include
+         d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed
+         d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) version 12.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: a1cd5e737011910b5dcd9adec5fecb2f
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e4609.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_e4609.dir\\'
+         d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_e4609.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Tao_qu\\AppData\\Local\\Temp\\cc37d1au.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.40
+        COMPILER_PATH=d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;d:/mingw64/bin/../libexec/gcc/;d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;d:/mingw64/bin/../lib/gcc/;d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e4609.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_e4609.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_e4609.exe
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_e4609.dir\\link.txt --verbose=1
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_e4609.dir/objects.a
+        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_e4609.dir/objects.a @CMakeFiles\\cmTC_e4609.dir\\objects1.rsp
+        D:\\mingw64\\bin\\g++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_e4609.dir/objects.a -Wl,--no-whole-archive -o cmTC_e4609.exe -Wl,--out-implib,libcmTC_e4609.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=D:\\mingw64\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/r/winlibs64ucrt_stage/inst_gcc-12.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=D:/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=D:/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=D:/Prog/winlibs64ucrt_stage/custombuilt --with-isl=D:/Prog/winlibs64ucrt_stage/custombuilt --enable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/r/winlibs64ucrt_stage/gcc-12.2.0/build_mingw/mingw-w64 CFLAGS='-ID:/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32 -Wno-int-conversion' CXXFLAGS=-Wno-int-conversion LDFLAGS='-pthread -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 
+        COMPILER_PATH=d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;d:/mingw64/bin/../libexec/gcc/;d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;d:/mingw64/bin/../lib/gcc/;d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e4609.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e4609.'
+         d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Tao_qu\\AppData\\Local\\Temp\\ccDwVzbH.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_e4609.exe d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -Ld:/mingw64/bin/../lib/gcc -Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --whole-archive CMakeFiles\\cmTC_e4609.dir/objects.a --no-whole-archive --out-implib libcmTC_e4609.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e4609.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e4609.'
+        mingw32-make[1]: Leaving directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-mzcd5s'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0]
+          add: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32]
+          add: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward]
+          add: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include]
+          add: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include]
+          add: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed]
+          add: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0] ==> [D:/mingw64/include/c++/12.2.0]
+        collapse include dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32] ==> [D:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32]
+        collapse include dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward] ==> [D:/mingw64/include/c++/12.2.0/backward]
+        collapse include dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include]
+        collapse include dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include] ==> [D:/mingw64/include]
+        collapse include dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed]
+        collapse include dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include] ==> [D:/mingw64/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/mingw64/include/c++/12.2.0;D:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32;D:/mingw64/include/c++/12.2.0/backward;D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include;D:/mingw64/include;D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed;D:/mingw64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-mzcd5s']
+        ignore line: []
+        ignore line: [Run Build Command(s): "D:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_e4609/fast]
+        ignore line: [D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e4609.dir\\build.make CMakeFiles/cmTC_e4609.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-mzcd5s']
+        ignore line: [Building CXX object CMakeFiles/cmTC_e4609.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_e4609.dir\\CMakeCXXCompilerABI.cpp.obj -c "D:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\mingw64\\bin\\g++.exe]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../configure --prefix=/r/winlibs64ucrt_stage/inst_gcc-12.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=D:/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=D:/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=D:/Prog/winlibs64ucrt_stage/custombuilt --with-isl=D:/Prog/winlibs64ucrt_stage/custombuilt --enable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/r/winlibs64ucrt_stage/gcc-12.2.0/build_mingw/mingw-w64 CFLAGS='-ID:/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32 -Wno-int-conversion' CXXFLAGS=-Wno-int-conversion LDFLAGS='-pthread -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e4609.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_e4609.dir\\']
+        ignore line: [ d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1plus.exe -quiet -v -iprefix d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/ -D_REENTRANT D:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_e4609.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\Tao_qu\\AppData\\Local\\Temp\\cc37d1au.s]
+        ignore line: [GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders) version 12.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "d:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0"]
+        ignore line: [ignoring duplicate directory "d:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "d:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward"]
+        ignore line: [ignoring duplicate directory "d:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include"]
+        ignore line: [ignoring nonexistent directory "R:/winlibs64ucrt_stage/inst_gcc-12.2.0/share/gcc/include"]
+        ignore line: [ignoring nonexistent directory "/r/winlibs64ucrt_stage/inst_gcc-12.2.0/share/gcc/include"]
+        ignore line: [ignoring duplicate directory "d:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "d:/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0]
+        ignore line: [ d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/x86_64-w64-mingw32]
+        ignore line: [ d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include/c++/12.2.0/backward]
+        ignore line: [ d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/include]
+        ignore line: [ d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include]
+        ignore line: [ d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed]
+        ignore line: [ d:\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders) version 12.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: a1cd5e737011910b5dcd9adec5fecb2f]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e4609.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_e4609.dir\\']
+        ignore line: [ d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_e4609.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Tao_qu\\AppData\\Local\\Temp\\cc37d1au.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders) 2.40]
+        ignore line: [COMPILER_PATH=d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/]
+        ignore line: [d:/mingw64/bin/../libexec/gcc/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e4609.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_e4609.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_e4609.exe]
+        ignore line: ["D:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_e4609.dir\\link.txt --verbose=1]
+        ignore line: ["D:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_e4609.dir/objects.a]
+        ignore line: [D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_e4609.dir/objects.a @CMakeFiles\\cmTC_e4609.dir\\objects1.rsp]
+        ignore line: [D:\\mingw64\\bin\\g++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_e4609.dir/objects.a -Wl --no-whole-archive -o cmTC_e4609.exe -Wl --out-implib libcmTC_e4609.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\mingw64\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../configure --prefix=/r/winlibs64ucrt_stage/inst_gcc-12.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=D:/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=D:/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=D:/Prog/winlibs64ucrt_stage/custombuilt --with-isl=D:/Prog/winlibs64ucrt_stage/custombuilt --enable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/r/winlibs64ucrt_stage/gcc-12.2.0/build_mingw/mingw-w64 CFLAGS='-ID:/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32 -Wno-int-conversion' CXXFLAGS=-Wno-int-conversion LDFLAGS='-pthread -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders) ]
+        ignore line: [COMPILER_PATH=d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/]
+        ignore line: [d:/mingw64/bin/../libexec/gcc/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e4609.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e4609.']
+        link line: [ d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Tao_qu\\AppData\\Local\\Temp\\ccDwVzbH.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_e4609.exe d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -Ld:/mingw64/bin/../lib/gcc -Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --whole-archive CMakeFiles\\cmTC_e4609.dir/objects.a --no-whole-archive --out-implib libcmTC_e4609.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o]
+          arg [d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=d:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Tao_qu\\AppData\\Local\\Temp\\ccDwVzbH.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_e4609.exe] ==> ignore
+          arg [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o] ==> obj [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o]
+          arg [-Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0] ==> dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0]
+          arg [-Ld:/mingw64/bin/../lib/gcc] ==> dir [d:/mingw64/bin/../lib/gcc]
+          arg [-Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib] ==> dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib]
+          arg [-Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-Ld:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../..] ==> dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../..]
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_e4609.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_e4609.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o] ==> obj [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [D:/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o]
+        collapse obj [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o]
+        collapse library dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0] ==> [D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0]
+        collapse library dir [d:/mingw64/bin/../lib/gcc] ==> [D:/mingw64/lib/gcc]
+        collapse library dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib] ==> [D:/mingw64/lib]
+        collapse library dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib] ==> [D:/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../..] ==> [D:/mingw64/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+        implicit objs: [D:/mingw64/x86_64-w64-mingw32/lib/crt2.o;D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o;D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o]
+        implicit dirs: [D:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0;D:/mingw64/lib/gcc;D:/mingw64/x86_64-w64-mingw32/lib;D:/mingw64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:362 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/types.h"
+    directories:
+      source: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-5aq8is"
+      binary: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-5aq8is"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-5aq8is'
+        
+        Run Build Command(s): "D:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4327c/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4327c.dir\\build.make CMakeFiles/cmTC_4327c.dir/build
+        mingw32-make[1]: Entering directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-5aq8is'
+        Building C object CMakeFiles/cmTC_4327c.dir/HAVE_SYS_TYPES_H.c.obj
+        D:\\mingw64\\bin\\gcc.exe   -Wall -pedantic  -o CMakeFiles\\cmTC_4327c.dir\\HAVE_SYS_TYPES_H.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5aq8is\\HAVE_SYS_TYPES_H.c
+        Linking C executable cmTC_4327c.exe
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_4327c.dir\\link.txt --verbose=1
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_4327c.dir/objects.a
+        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_4327c.dir/objects.a @CMakeFiles\\cmTC_4327c.dir\\objects1.rsp
+        D:\\mingw64\\bin\\gcc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles\\cmTC_4327c.dir/objects.a -Wl,--no-whole-archive -o cmTC_4327c.exe -Wl,--out-implib,libcmTC_4327c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_4327c.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-5aq8is'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:363 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file unistd.h"
+    directories:
+      source: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-zpob38"
+      binary: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-zpob38"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-zpob38'
+        
+        Run Build Command(s): "D:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_49b63/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_49b63.dir\\build.make CMakeFiles/cmTC_49b63.dir/build
+        mingw32-make[1]: Entering directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-zpob38'
+        Building C object CMakeFiles/cmTC_49b63.dir/HAVE_UNISTD_H.c.obj
+        D:\\mingw64\\bin\\gcc.exe   -Wall -pedantic  -o CMakeFiles\\cmTC_49b63.dir\\HAVE_UNISTD_H.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zpob38\\HAVE_UNISTD_H.c
+        Linking C executable cmTC_49b63.exe
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_49b63.dir\\link.txt --verbose=1
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_49b63.dir/objects.a
+        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_49b63.dir/objects.a @CMakeFiles\\cmTC_49b63.dir\\objects1.rsp
+        D:\\mingw64\\bin\\gcc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles\\cmTC_49b63.dir/objects.a -Wl,--no-whole-archive -o cmTC_49b63.exe -Wl,--out-implib,libcmTC_49b63.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_49b63.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-zpob38'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:364 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/time.h"
+    directories:
+      source: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-f828fy"
+      binary: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-f828fy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-f828fy'
+        
+        Run Build Command(s): "D:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a7fb3/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a7fb3.dir\\build.make CMakeFiles/cmTC_a7fb3.dir/build
+        mingw32-make[1]: Entering directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-f828fy'
+        Building C object CMakeFiles/cmTC_a7fb3.dir/HAVE_SYS_TIME_H.c.obj
+        D:\\mingw64\\bin\\gcc.exe   -Wall -pedantic  -o CMakeFiles\\cmTC_a7fb3.dir\\HAVE_SYS_TIME_H.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f828fy\\HAVE_SYS_TIME_H.c
+        Linking C executable cmTC_a7fb3.exe
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a7fb3.dir\\link.txt --verbose=1
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_a7fb3.dir/objects.a
+        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_a7fb3.dir/objects.a @CMakeFiles\\cmTC_a7fb3.dir\\objects1.rsp
+        D:\\mingw64\\bin\\gcc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles\\cmTC_a7fb3.dir/objects.a -Wl,--no-whole-archive -o cmTC_a7fb3.exe -Wl,--out-implib,libcmTC_a7fb3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_a7fb3.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-f828fy'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:365 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file stdbool.h"
+    directories:
+      source: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-yh35zk"
+      binary: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-yh35zk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_STDBOOL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-yh35zk'
+        
+        Run Build Command(s): "D:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_b5cd1/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b5cd1.dir\\build.make CMakeFiles/cmTC_b5cd1.dir/build
+        mingw32-make[1]: Entering directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-yh35zk'
+        Building C object CMakeFiles/cmTC_b5cd1.dir/HAVE_STDBOOL_H.c.obj
+        D:\\mingw64\\bin\\gcc.exe   -Wall -pedantic  -o CMakeFiles\\cmTC_b5cd1.dir\\HAVE_STDBOOL_H.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yh35zk\\HAVE_STDBOOL_H.c
+        Linking C executable cmTC_b5cd1.exe
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b5cd1.dir\\link.txt --verbose=1
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_b5cd1.dir/objects.a
+        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_b5cd1.dir/objects.a @CMakeFiles\\cmTC_b5cd1.dir\\objects1.rsp
+        D:\\mingw64\\bin\\gcc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles\\cmTC_b5cd1.dir/objects.a -Wl,--no-whole-archive -o cmTC_b5cd1.exe -Wl,--out-implib,libcmTC_b5cd1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_b5cd1.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-yh35zk'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:366 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/param.h"
+    directories:
+      source: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-osmuzx"
+      binary: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-osmuzx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_SYS_PARAM_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-osmuzx'
+        
+        Run Build Command(s): "D:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_3fdd8/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3fdd8.dir\\build.make CMakeFiles/cmTC_3fdd8.dir/build
+        mingw32-make[1]: Entering directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-osmuzx'
+        Building C object CMakeFiles/cmTC_3fdd8.dir/HAVE_SYS_PARAM_H.c.obj
+        D:\\mingw64\\bin\\gcc.exe   -Wall -pedantic  -o CMakeFiles\\cmTC_3fdd8.dir\\HAVE_SYS_PARAM_H.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-osmuzx\\HAVE_SYS_PARAM_H.c
+        Linking C executable cmTC_3fdd8.exe
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_3fdd8.dir\\link.txt --verbose=1
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_3fdd8.dir/objects.a
+        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_3fdd8.dir/objects.a @CMakeFiles\\cmTC_3fdd8.dir\\objects1.rsp
+        D:\\mingw64\\bin\\gcc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles\\cmTC_3fdd8.dir/objects.a -Wl,--no-whole-archive -o cmTC_3fdd8.exe -Wl,--out-implib,libcmTC_3fdd8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_3fdd8.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-osmuzx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:367 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/ioctl.h"
+    directories:
+      source: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-grc5eg"
+      binary: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-grc5eg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_SYS_IOCTL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-grc5eg'
+        
+        Run Build Command(s): "D:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_29de8/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_29de8.dir\\build.make CMakeFiles/cmTC_29de8.dir/build
+        mingw32-make[1]: Entering directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-grc5eg'
+        Building C object CMakeFiles/cmTC_29de8.dir/HAVE_SYS_IOCTL_H.c.obj
+        D:\\mingw64\\bin\\gcc.exe   -Wall -pedantic  -o CMakeFiles\\cmTC_29de8.dir\\HAVE_SYS_IOCTL_H.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-grc5eg\\HAVE_SYS_IOCTL_H.c
+        E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-grc5eg\\HAVE_SYS_IOCTL_H.c:2:10: fatal error: sys/ioctl.h: No such file or directory
+            2 | #include <sys/ioctl.h>
+              |          ^~~~~~~~~~~~~
+        compilation terminated.
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_29de8.dir\\build.make:77: CMakeFiles/cmTC_29de8.dir/HAVE_SYS_IOCTL_H.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-grc5eg'
+        mingw32-make: *** [Makefile:126: cmTC_29de8/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:368 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file fcntl.h"
+    directories:
+      source: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-d3hyg3"
+      binary: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-d3hyg3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_FCNTL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-d3hyg3'
+        
+        Run Build Command(s): "D:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1e2e9/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1e2e9.dir\\build.make CMakeFiles/cmTC_1e2e9.dir/build
+        mingw32-make[1]: Entering directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-d3hyg3'
+        Building C object CMakeFiles/cmTC_1e2e9.dir/HAVE_FCNTL_H.c.obj
+        D:\\mingw64\\bin\\gcc.exe   -Wall -pedantic  -o CMakeFiles\\cmTC_1e2e9.dir\\HAVE_FCNTL_H.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3hyg3\\HAVE_FCNTL_H.c
+        Linking C executable cmTC_1e2e9.exe
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_1e2e9.dir\\link.txt --verbose=1
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_1e2e9.dir/objects.a
+        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_1e2e9.dir/objects.a @CMakeFiles\\cmTC_1e2e9.dir\\objects1.rsp
+        D:\\mingw64\\bin\\gcc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles\\cmTC_1e2e9.dir/objects.a -Wl,--no-whole-archive -o cmTC_1e2e9.exe -Wl,--out-implib,libcmTC_1e2e9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_1e2e9.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-d3hyg3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:369 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file usbhid.h"
+    directories:
+      source: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-obd4jr"
+      binary: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-obd4jr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_USBHID_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-obd4jr'
+        
+        Run Build Command(s): "D:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_05bab/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_05bab.dir\\build.make CMakeFiles/cmTC_05bab.dir/build
+        mingw32-make[1]: Entering directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-obd4jr'
+        Building C object CMakeFiles/cmTC_05bab.dir/HAVE_USBHID_H.c.obj
+        D:\\mingw64\\bin\\gcc.exe   -Wall -pedantic  -o CMakeFiles\\cmTC_05bab.dir\\HAVE_USBHID_H.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-obd4jr\\HAVE_USBHID_H.c
+        E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-obd4jr\\HAVE_USBHID_H.c:2:10: fatal error: usbhid.h: No such file or directory
+            2 | #include <usbhid.h>
+              |          ^~~~~~~~~~
+        compilation terminated.
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_05bab.dir\\build.make:77: CMakeFiles/cmTC_05bab.dir/HAVE_USBHID_H.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-obd4jr'
+        mingw32-make: *** [Makefile:126: cmTC_05bab/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:370 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for gettimeofday"
+    directories:
+      source: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-z7vfhk"
+      binary: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-z7vfhk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_GETTIMEOFDAY"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-z7vfhk'
+        
+        Run Build Command(s): "D:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ed640/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ed640.dir\\build.make CMakeFiles/cmTC_ed640.dir/build
+        mingw32-make[1]: Entering directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-z7vfhk'
+        Building C object CMakeFiles/cmTC_ed640.dir/CheckFunctionExists.c.obj
+        D:\\mingw64\\bin\\gcc.exe   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gettimeofday -o CMakeFiles\\cmTC_ed640.dir\\CheckFunctionExists.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z7vfhk\\CheckFunctionExists.c
+        Linking C executable cmTC_ed640.exe
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ed640.dir\\link.txt --verbose=1
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_ed640.dir/objects.a
+        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_ed640.dir/objects.a @CMakeFiles\\cmTC_ed640.dir\\objects1.rsp
+        D:\\mingw64\\bin\\gcc.exe  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gettimeofday -Wl,--whole-archive CMakeFiles\\cmTC_ed640.dir/objects.a -Wl,--no-whole-archive -o cmTC_ed640.exe -Wl,--out-implib,libcmTC_ed640.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_ed640.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-z7vfhk'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:371 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for XParseGeometry"
+    directories:
+      source: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-xx3vm6"
+      binary: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-xx3vm6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_XPARSEGEOMETRY"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-xx3vm6'
+        
+        Run Build Command(s): "D:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_026b1/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_026b1.dir\\build.make CMakeFiles/cmTC_026b1.dir/build
+        mingw32-make[1]: Entering directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-xx3vm6'
+        Building C object CMakeFiles/cmTC_026b1.dir/CheckFunctionExists.c.obj
+        D:\\mingw64\\bin\\gcc.exe   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry -o CMakeFiles\\cmTC_026b1.dir\\CheckFunctionExists.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xx3vm6\\CheckFunctionExists.c
+        Linking C executable cmTC_026b1.exe
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_026b1.dir\\link.txt --verbose=1
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_026b1.dir/objects.a
+        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_026b1.dir/objects.a @CMakeFiles\\cmTC_026b1.dir\\objects1.rsp
+        D:\\mingw64\\bin\\gcc.exe  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry -Wl,--whole-archive CMakeFiles\\cmTC_026b1.dir/objects.a -Wl,--no-whole-archive -o cmTC_026b1.exe -Wl,--out-implib,libcmTC_026b1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_026b1.dir\\linkLibs.rsp
+        d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\\cmTC_026b1.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `XParseGeometry'
+        collect2.exe: error: ld returned 1 exit status
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_026b1.dir\\build.make:100: cmTC_026b1.exe] Error 1
+        mingw32-make[1]: Leaving directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-xx3vm6'
+        mingw32-make: *** [Makefile:126: cmTC_026b1/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:379 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file stdint.h"
+    directories:
+      source: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-wcsoou"
+      binary: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-wcsoou"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-wcsoou'
+        
+        Run Build Command(s): "D:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8eb10/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8eb10.dir\\build.make CMakeFiles/cmTC_8eb10.dir/build
+        mingw32-make[1]: Entering directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-wcsoou'
+        Building C object CMakeFiles/cmTC_8eb10.dir/HAVE_STDINT_H.c.obj
+        D:\\mingw64\\bin\\gcc.exe   -Wall -pedantic  -o CMakeFiles\\cmTC_8eb10.dir\\HAVE_STDINT_H.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wcsoou\\HAVE_STDINT_H.c
+        Linking C executable cmTC_8eb10.exe
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_8eb10.dir\\link.txt --verbose=1
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_8eb10.dir/objects.a
+        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_8eb10.dir/objects.a @CMakeFiles\\cmTC_8eb10.dir\\objects1.rsp
+        D:\\mingw64\\bin\\gcc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles\\cmTC_8eb10.dir/objects.a -Wl,--no-whole-archive -o cmTC_8eb10.exe -Wl,--out-implib,libcmTC_8eb10.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_8eb10.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-wcsoou'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:380 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file inttypes.h"
+    directories:
+      source: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-0a8lr6"
+      binary: "E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-0a8lr6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-0a8lr6'
+        
+        Run Build Command(s): "D:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_90f7d/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_90f7d.dir\\build.make CMakeFiles/cmTC_90f7d.dir/build
+        mingw32-make[1]: Entering directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-0a8lr6'
+        Building C object CMakeFiles/cmTC_90f7d.dir/HAVE_INTTYPES_H.c.obj
+        D:\\mingw64\\bin\\gcc.exe   -Wall -pedantic  -o CMakeFiles\\cmTC_90f7d.dir\\HAVE_INTTYPES_H.c.obj -c E:\\Courses\\G1S2\\CS100\\Homework\\hw8\\HW8_attachments_windows\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0a8lr6\\HAVE_INTTYPES_H.c
+        Linking C executable cmTC_90f7d.exe
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_90f7d.dir\\link.txt --verbose=1
+        "D:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_90f7d.dir/objects.a
+        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_90f7d.dir/objects.a @CMakeFiles\\cmTC_90f7d.dir\\objects1.rsp
+        D:\\mingw64\\bin\\gcc.exe  -Wall -pedantic  -Wl,--whole-archive CMakeFiles\\cmTC_90f7d.dir/objects.a -Wl,--no-whole-archive -o cmTC_90f7d.exe -Wl,--out-implib,libcmTC_90f7d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_90f7d.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/Courses/G1S2/CS100/Homework/hw8/HW8_attachments_windows/build/CMakeFiles/CMakeScratch/TryCompile-0a8lr6'
+        
+      exitCode: 0
+...
